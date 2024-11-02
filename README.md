@@ -23,7 +23,7 @@ You can use *python Alu_mimic.py -h* to view the help information. Before runnin
 
 The output includes a CSV file containing all the generated gRNAs and basical information, and a log file showing structural information predcited by RNAhybrid. You can use *less -S* to view it on a linux machine.
 
-![log file example](./img/log.png)
+<img src="./img/MIRROR.png" alt="workflow" width="300" height="200">
 
  
 
