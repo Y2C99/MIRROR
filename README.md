@@ -17,7 +17,7 @@ The script was tested on a centos machine (CentOS Linux release 7.8.2003).
 
 ## Usage
 
-The main script, **Alu_mimic.py**, generates gRNAs with different structural features extracted from the substrates. The **substrates** directory contains the identified inverted Alu pairs used for gRNA generation.
+The main script, **MIRROR.py**, generates gRNAs with different structural features extracted from the substrates. The **substrates** directory contains the identified inverted Alu pairs used for gRNA generation.
 
 You can use *python Alu_mimic.py -h* to view the help information. Before running the script, ensure the necessary packages and software are installed, and replace the RNAhybrid path in the script with the path to your own RNAhybrid installation.
 
