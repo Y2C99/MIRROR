@@ -17,13 +17,13 @@ The script was tested on a centos machine (CentOS Linux release 7.8.2003).
 
 ## Usage
 
-The main script, **MIRROR.py**, generates gRNAs with different structural features extracted from the substrates. The **substrates** directory contains the identified inverted Alu pairs used for gRNA generation.
+The main script, **MIRROR.py**, generates gRNAs with various structural features extracted from the highly edited natural ADAR substrates. The **substrates** directory contains the identified inverted Alu pairs used for gRNA generation.
 
-You can use *python Alu_mimic.py -h* to view the help information. Before running the script, ensure the necessary packages and software are installed, and replace the RNAhybrid path in the script with the path to your own RNAhybrid installation.
+To view help information, run *python MIRROR.py -h*. Before running the script, ensure the necessary packages and software are installed, and update the RNAhybrid path in the script to point to your own RNAhybrid installation.
 
-The output includes a CSV file containing all the generated gRNAs and basical information, and a log file showing structural information predcited by RNAhybrid. You can use *less -S* to view it on a linux machine.
+The output includes a CSV file containing all generated gRNAs and basic information, and a log file showing structural information predcited by RNAhybrid. You can use *less -S* to view it on a linux machine.
 
-<img src="./img/log.png" alt="workflow" width="300" height="200">
+![log file example](./img/log.png)
 
  
 
