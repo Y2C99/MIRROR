@@ -23,7 +23,6 @@ To view help information, run *python MIRROR.py -h*. Before running the script, 
 
 The output includes a CSV file containing all generated gRNAs and basic information, and a log file showing structural information predcited by RNAhybrid. You can use *less -S* to view it on a linux machine.
 
-![log file example](./img/log.png)
 
  
 
