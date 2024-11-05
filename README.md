@@ -2,7 +2,7 @@
 
 Workflow of the **MIRROR (Mimicking Inverted Repeats to Recruit ADAR via Engineered Oligoribonucleotide)**.
 
-![workflow](./img/MIRROR.png)
+<iframe src="./img/MIRROR.png" width="600" height="400"></iframe>
 
 ## Python packages and softwares
 
