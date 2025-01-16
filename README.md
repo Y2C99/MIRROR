@@ -11,6 +11,7 @@ The script was tested on a centos machine (CentOS Linux release 7.8.2003).
 |        python version        | 3.8   |
 | :--------------------------: | ----- |
 |            pandas            | 1.5.1 |
+|          numpy               | 1.23.4|
 |          Biopython           | 1.79  |
 | RNA python apis of ViennaRNA | 4.0.2 |
 |          RNAhybrid           | 2.1.2 |
