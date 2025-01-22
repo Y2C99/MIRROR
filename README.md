@@ -4,26 +4,42 @@ Workflow of the **MIRROR (Mimicking Inverted Repeats to Recruit ADAR via Enginee
 
 ![workflow](./img/MIRROR.png)
 
-## Python packages and softwares
+## Python packages and software
 
 The script was tested on a centos machine (CentOS Linux release 7.8.2003).
 
 |        python version        | 3.8   |
 | :--------------------------: | ----- |
 |            pandas            | 1.5.1 |
-|          numpy               | 1.23.4|
 |          Biopython           | 1.79  |
-| RNA python apis of ViennaRNA | 4.0.2 |
+| RNA python APIs of ViennaRNA | 4.0.2 |
 |          RNAhybrid           | 2.1.2 |
 
 ## Usage
 
-The main script, **MIRROR.py**, generates gRNAs with various structural features extracted from the highly edited natural ADAR substrates. The **substrates** directory contains the identified inverted Alu pairs used for gRNA generation.
+The main script, **MIRROR.py**, generates gRNAs with various structural features learned from the highly edited natural ADAR substrates. The **substrates** directory contains the inverted Alu pairs used for gRNA generation.
 
 To view help information, run *python MIRROR.py -h*. Before running the script, ensure the necessary packages and software are installed, and update the RNAhybrid path in the script to point to your own RNAhybrid installation.
 
-The output includes a CSV file containing all generated gRNAs and basic information, and a log file showing structural information predcited by RNAhybrid. You can use *less -S* to view it on a linux machine.
+The output includes a CSV file containing all generated gRNAs and basic information, and a log file showing structural information predicted by RNAhybrid. You can use less -S to view it on a linux machine.
 
+## Command examples
 
- 
+1. gRNA generation for high-throughput screening:
 
+   ```shell
+   python3.8 ./MIRROR_v1.py -t GAPDH_1208_TAG.fa -l 51 -fm 3 -tm 25 -fa 4 -ta 4 -o GAPDH_1208_TAG_test_final -p 36 -n 2000
+   ```
+
+2. gRNA generation for for low-throughput testing:
+
+   ```shell
+   python3.8 ./MIRROR_v1.py -t GAPDH_1208_TAG.fa -l 51 -fm 3 -tm 25 -fa 4 -ta 4 -L -o GAPDH_1208_TAG_test_final -p 36 -n 2000
+   ```
+
+3. editing level analysis based on targeted-RNA-seq:
+
+   ```shell
+   python pileup_editing_analysis_v2.py -b sample.bam -f reference.fa -c MAX -o ./output/ -F 10 -p 1234
+   ```
+   

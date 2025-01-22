@@ -1,0 +1,1100 @@
+====================================================================================
+          Top: 1
+      ASO seq: CCCUAGGCCCCUCCCCCCUUCCAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +13|loop  +8|loop  0|loop  +1|wobble_paired
+5'-                C    C       C       -3'
+5'-CCCUAGGCCCCUCCCC CUUC AGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGG GAAG UCCCCAG UGUACCG-5'
+3'-                A    U       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 2
+      ASO seq: CCCUAGACCCCUCUCCUCUUCAACGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|loop  +6|loop  0|loop  +16|wobble_paired
+5'-      A                C     C       -3'
+5'-CCCUAG CCCCUCUCCUCUUCAA GGGUC ACAUGGC-3'
+3'-GGGAUC GGGGAGGGGAGAAGUU CCCAG UGUACCG-5'
+3'-      C                C     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 3
+      ASO seq: CCCUACGCCCCUCCCCUCUUAAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +24|loop  +9|loop  0|loop
+5'-     C              A        C       -3'
+5'-CCCUA GCCCCUCCCCUCUU AAGGGGUC ACAUGGC-3'
+3'-GGGAU CGGGGAGGGGAGAA UUCCCCAG UGUACCG-5'
+3'-     C              G        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 4
+      ASO seq: CCCUAGGCCCCUCCUCUCGUCAAGAGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|loop  +5|loop  0|loop  +15|wobble_paired
+5'-                  G     A    C       -3'
+5'-CCCUAGGCCCCUCCUCUC UCAAG GGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AGUUC CCAG UGUACCG-5'
+3'-                  A     C    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 5
+      ASO seq: CCCUAGGCCUCCCCUCUUCAAGGAGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19,+20|es_bulge|2  +4|loop  0|loop
+5'-                         A   C       -3'
+5'-CCCUAGGCC  UCCCCUCUUCAAGG GUC ACAUGGC-3'
+3'-GGGAUCCGG  AGGGGAGAAGUUCC CAG UGUACCG-5'
+3'-         GG              C   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 6
+      ASO seq: CCCUAGGUCCCUCCCCUCUUCAAGAGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +5|loop  0|loop  +22|wobble_paired
+5'-                        A    C       -3'
+5'-CCCUAGGUCCCUCCCCUCUUCAAG GGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUC CCAG UGUACCG-5'
+3'-                        C    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 7
+      ASO seq: CCCUAGGCCCUUCGCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +16|loop  0|loop  +19|wobble_paired
+5'-             G               C       -3'
+5'-CCCUAGGCCCUUC CCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAG GGAGAAGUUCCCCAG UGUACCG-5'
+3'-             G               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 8
+      ASO seq: CCCUAGGCCCCUCCACUUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +15|loop  0|loop  +12|wobble_paired
+5'-              A              C       -3'
+5'-CCCUAGGCCCCUCC CUUUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGG GAGAAGUUCCCCAG UGUACCG-5'
+3'-              G              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 9
+      ASO seq: CCCUAGGCCCCUCCCGUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  0|loop
+5'-               G             C       -3'
+5'-CCCUAGGCCCCUCCC UCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-               G             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 10
+      ASO seq: CCCUAGGCCCAUCCCCUCUUCGAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19|loop  0|loop  +8|wobble_paired
+5'-          A                  C       -3'
+5'-CCCUAGGCCC UCCCCUCUUCGAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGG AGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-          G                  *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 11
+      ASO seq: CCCUAGGCCCAUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19|loop  0|loop
+5'-          A                  C       -3'
+5'-CCCUAGGCCC UCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGG AGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-          G                  *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 12
+      ASO seq: CCCUAGGCUCCUCCCCUCUUCAACUUGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +6|loop  0|loop  +21|wobble_paired
+5'-                       CUU     C       -3'
+5'-CCCUAGGCUCCUCCCCUCUUCAA   GGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUU   CCCAG UGUACCG-5'
+3'-                       C       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 13
+      ASO seq: CCCUAGGCCCCUCCCCUCUUAAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +9|loop  0|loop
+5'-                    A        C       -3'
+5'-CCCUAGGCCCCUCCCCUCUU AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAA UUCCCCAG UGUACCG-5'
+3'-                    G        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 14
+      ASO seq: CCCUAGACCCCUCCUCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|loop  0|loop  +15|wobble_paired
+5'-      A                      C       -3'
+5'-CCCUAG CCCCUCCUCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUC GGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-      C                      *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 15
+      ASO seq: CCCUAGGGGGAUCCCGUCCCCUCCUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|ecs_bulge|5  +19|loop  +11|loop  0|loop  +1|wobble_paired
+5'-       GGGAU   G       C          C       -3'
+5'-CCCUAGG     CCC UCCCCUC UCAAGGGGUU ACAUGGC-3'
+3'-GGGAUCC     GGG AGGGGAG AGUUCCCCAG UGUACCG-5'
+3'-               G       A          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 16
+      ASO seq: CCCUAGGCCCCUCCCGUCUUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  0|loop  +1|wobble_paired
+5'-               G             C       -3'
+5'-CCCUAGGCCCCUCCC UCUUCAAGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-               G             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 17
+      ASO seq: CCCUAGGCGCCUCCCCUCUUCAAGGGGUCCGCAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|loop  0|loop  -1|wobble_paired
+5'-        G                    C       -3'
+5'-CCCUAGGC CCUCCCCUCUUCAAGGGGUC GCAUGGC-3'
+3'-GGGAUCCG GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-        G                    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 18
+      ASO seq: CCCUAGGCCCCUUCCCCUCUUCAAGGAGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +18|ecs_bulge  +4|loop  0|loop  +1|wobble_paired
+5'-           U              A   C       -3'
+5'-CCCUAGGCCCC UCCCCUCUUCAAGG GUU ACAUGGC-3'
+3'-GGGAUCCGGGG AGGGGAGAAGUUCC CAG UGUACCG-5'
+3'-                          C   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 19
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCGAGGGGUCCACCUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: 0|loop  -3|loop  +8|wobble_paired
+5'-                             C  C    -3'
+5'-CCCUAGGCCCCUCCCCUCUUCGAGGGGUC AC UGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCCCCAG UG ACCG-5'
+3'-                             *  U    -5'
+====================================================================================
+
+====================================================================================
+          Top: 20
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +6|es_bulge  0|loop
+5'-                             C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAA GGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUU CCCAG UGUACCG-5'
+3'-                       C     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 21
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCUAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|loop  0|loop
+5'-                     U       C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUC AGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG UCCCCAG UGUACCG-5'
+3'-                     U       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 22
+      ASO seq: CCCUAGGCCCCUCACCUCUUCUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +16|loop  +8|ecs_bulge  0|loop
+5'-             A       U        C       -3'
+5'-CCCUAGGCCCCUC CCUCUUC AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAG GGAGAAG UUCCCCAG UGUACCG-5'
+3'-             G                *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 23
+      ASO seq: CCCUAGGCCCCUCACCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +16|loop  0|loop
+5'-             A               C       -3'
+5'-CCCUAGGCCCCUC CCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAG GGAGAAGUUCCCCAG UGUACCG-5'
+3'-             G               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 24
+      ASO seq: CCCUAGGCCCCUCCGCUCUUCAAAGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +15|loop  +6|loop  0|loop
+5'-              G        A     C       -3'
+5'-CCCUAGGCCCCUCC CUCUUCAA GGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGG GAGAAGUU CCCAG UGUACCG-5'
+3'-              G        C     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 25
+      ASO seq: CCCUAGGCCCAUUCCCUCCUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19|loop  +11|loop  0|loop  +17|wobble_paired
+5'-          A       C          C       -3'
+5'-CCCUAGGCCC UUCCCUC UCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGG AGGGGAG AGUUCCCCAG UGUACCG-5'
+3'-          G       A          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 26
+      ASO seq: CCCUAGGCCUGGCUAACGCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +20|ecs_bulge|9  0|loop
+5'-         UGGCUAACG                    C       -3'
+5'-CCCUAGGCC         CCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGG         GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                      *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 27
+      ASO seq: CCCUAGUCCUGGCCAGCCCCUCCCCUCUUCGAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|ecs_bulge|9  0|loop  +8|wobble_paired
+5'-      UCCUGGCCA                       C       -3'
+5'-CCCUAG         GCCCCUCCCCUCUUCGAGGGGUC ACAUGGC-3'
+3'-GGGAUC         CGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                      *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 28
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAUGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +6|loop  0|loop
+5'-                       U     C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAA GGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUU CCCAG UGUACCG-5'
+3'-                       C     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 29
+      ASO seq: CCCUAGGCCCCUCCCCUCCUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|loop  0|loop
+5'-                  C          C       -3'
+5'-CCCUAGGCCCCUCCCCUC UCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AGUUCCCCAG UGUACCG-5'
+3'-                  A          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 30
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGCGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +5|loop  0|loop
+5'-                        C    C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAG GGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUC CCAG UGUACCG-5'
+3'-                        C    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 31
+      ASO seq: CCCUAGGCCCCUCCCCCCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +13|loop  0|loop
+5'-                C            C       -3'
+5'-CCCUAGGCCCCUCCCC CUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGG GAAGUUCCCCAG UGUACCG-5'
+3'-                A            *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 32
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCCAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|loop  0|loop
+5'-                     C       C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUC AGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG UCCCCAG UGUACCG-5'
+3'-                     U       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 33
+      ASO seq: CCCUAGGCCGCCUCCCGUCUUCAAAUGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +20|ecs_bulge  +14|loop  +6|ecs_bulge|2  0|loop
+5'-         G      G       AU      C       -3'
+5'-CCCUAGGCC CCUCCC UCUUCAA  GGGGUC ACAUGGC-3'
+3'-GGGAUCCGG GGAGGG AGAAGUU  CCCCAG UGUACCG-5'
+3'-                G               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 34
+      ASO seq: CCCUAGGCCCUUCCCAUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  0|loop  +19|wobble_paired
+5'-               A             C       -3'
+5'-CCCUAGGCCCUUCCC UCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-               G             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 35
+      ASO seq: CCCUAGGACCCUCACCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|loop  +16|loop  0|loop
+5'-       A     A               C       -3'
+5'-CCCUAGG CCCUC CCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCC GGGAG GGAGAAGUUCCCCAG UGUACCG-5'
+3'-       G     G               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 36
+      ASO seq: CCCUAGGCCACCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +20|ecs_bulge  0|loop
+5'-         A                    C       -3'
+5'-CCCUAGGCC CCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGG GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 37
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGGGGCCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +2|loop  0|loop
+5'-                           C C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAGGGG C ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCCCC G UGUACCG-5'
+3'-                           A *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 38
+      ASO seq: CCCUAGGAUCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|loop  0|loop  +21|wobble_paired
+5'-       A                     C       -3'
+5'-CCCUAGG UCCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCC GGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-       G                     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 39
+      ASO seq: CCCUAGGACCCUCCCCUUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|loop  0|loop  +12|wobble_paired
+5'-       A                     C       -3'
+5'-CCCUAGG CCCUCCCCUUUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCC GGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-       G                     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 40
+      ASO seq: CCCUAGGCCCCUCCCAUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  0|loop
+5'-               A             C       -3'
+5'-CCCUAGGCCCCUCCC UCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-               G             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 41
+      ASO seq: CCCUAGACCCCUCCUCCUCUUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|loop  +15|ecs_bulge  0|loop  +1|wobble_paired
+5'-      A       U               C       -3'
+5'-CCCUAG CCCCUCC CCUCUUCAAGGGGUU ACAUGGC-3'
+3'-GGGAUC GGGGAGG GGAGAAGUUCCCCAG UGUACCG-5'
+3'-      C                       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 42
+      ASO seq: CCCUUGGCCCCUCCCCUCUUCAAGGGGUCCACGUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +25|loop  0|loop  -3|wobble_paired
+5'-    U                        C       -3'
+5'-CCCU GGCCCCUCCCCUCUUCAAGGGGUC ACGUGGC-3'
+3'-GGGA CCGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-    U                        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 43
+      ASO seq: CCCUAGGCCCCUCCCCUCUUAAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +9|loop  0|loop  +1|wobble_paired
+5'-                    A        C       -3'
+5'-CCCUAGGCCCCUCCCCUCUU AAGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAA UUCCCCAG UGUACCG-5'
+3'-                    G        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 44
+      ASO seq: CCCUCGGCCCCUCCCCUCUUCGAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +25|loop  0|loop  +8|wobble_paired
+5'-    C                        C       -3'
+5'-CCCU GGCCCCUCCCCUCUUCGAGGGGUC ACAUGGC-3'
+3'-GGGA CCGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-    U                        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 45
+      ASO seq: CCCUAGGCCCCUCCCCUCGUCAGGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|loop  0|loop  +7|wobble_paired
+5'-                  G          C       -3'
+5'-CCCUAGGCCCCUCCCCUC UCAGGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AGUUCCCCAG UGUACCG-5'
+3'-                  A          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 46
+      ASO seq: CCCUACGGCCCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +24|ecs_bulge  0|loop
+5'-     C                        C       -3'
+5'-CCCUA GGCCCCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAU CCGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 47
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGAGGUCCGCAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +5|loop  0|loop  -1|wobble_paired
+5'-                        A    C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAG GGUC GCAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUC CCAG UGUACCG-5'
+3'-                        C    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 48
+      ASO seq: CCCUACGCCCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +24|loop  0|loop
+5'-     C                       C       -3'
+5'-CCCUA GCCCCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAU CGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-     C                       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 49
+      ASO seq: CCCUAGGCUCCUCCCCUAUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +12|loop  0|loop  +21|wobble_paired
+5'-                 A           C       -3'
+5'-CCCUAGGCUCCUCCCCU UUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGA AAGUUCCCCAG UGUACCG-5'
+3'-                 G           *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 50
+      ASO seq: CCCUUGGCCUGCACCUCCCCUCUUUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +25|loop  +20|ecs_bulge|4  0|loop  +9|wobble_paired
+5'-    U    UGCA                    C       -3'
+5'-CCCU GGCC    CCUCCCCUCUUUAAGGGGUC ACAUGGC-3'
+3'-GGGA CCGG    GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-    U                            *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 51
+      ASO seq: CCCUAGGCCCCUCCCCUUUUCAUCUAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +7|ecs_bulge|3  0|loop  +12|wobble_paired
+5'-                      UCU       C       -3'
+5'-CCCUAGGCCCCUCCCCUUUUCA   AGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGU   UCCCCAG UGUACCG-5'
+3'-                                *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 52
+      ASO seq: CCCUAGGCCCCUCCCCGCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +13|loop  0|loop
+5'-                G            C       -3'
+5'-CCCUAGGCCCCUCCCC CUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGG GAAGUUCCCCAG UGUACCG-5'
+3'-                A            *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 53
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCUAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|loop  0|loop  +1|wobble_paired
+5'-                     U       C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUC AGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG UCCCCAG UGUACCG-5'
+3'-                     U       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 54
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGUGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +5|loop  0|loop
+5'-                        U    C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAG GGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUC CCAG UGUACCG-5'
+3'-                        C    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 55
+      ASO seq: CCCUAGGCCCCUCCCCCCUGUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +13|loop  +10|ecs_bulge  0|loop  +1|wobble_paired
+5'-                C  G          C       -3'
+5'-CCCUAGGCCCCUCCCC CU UCAAGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGG GA AGUUCCCCAG UGUACCG-5'
+3'-                A             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 56
+      ASO seq: CCCUAGGCCCCUCACCUCUUCUACUACAAAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +16|loop  +8|ecs_bulge|8  0|loop
+5'-             A       UACUACAA        C       -3'
+5'-CCCUAGGCCCCUC CCUCUUC        AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAG GGAGAAG        UUCCCCAG UGUACCG-5'
+3'-             G                       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 57
+      ASO seq: CCCUAGGCCCCUCCCGUCUUCAGGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  0|loop  +7|wobble_paired
+5'-               G             C       -3'
+5'-CCCUAGGCCCCUCCC UCUUCAGGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-               G             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 58
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCACGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +7|loop  0|loop
+5'-                      C      C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCA GGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGU CCCCAG UGUACCG-5'
+3'-                      U      *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 59
+      ASO seq: CCCUAGGCACCUCCCCUCUUCAAGGGGUCCACGUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|loop  0|loop  -3|wobble_paired
+5'-        A                    C       -3'
+5'-CCCUAGGC CCUCCCCUCUUCAAGGGGUC ACGUGGC-3'
+3'-GGGAUCCG GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-        G                    *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 60
+      ASO seq: CCCUAGGCCCCUCUCCUCUUCCAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|loop  0|loop  +16|wobble_paired
+5'-                     C       C       -3'
+5'-CCCUAGGCCCCUCUCCUCUUC AGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG UCCCCAG UGUACCG-5'
+3'-                     U       *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 61
+      ASO seq: CCCUAGGCCGCCUCACCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +20|ecs_bulge|6  0|loop
+5'-         GCCUCA                    C       -3'
+5'-CCCUAGGCC      CCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGG      GGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 62
+      ASO seq: CCCUAGGGUCCCCUCCCCUCUUCAAGGGGUCCACGUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|ecs_bulge|2  0|loop  -3|wobble_paired
+5'-       GU                      C       -3'
+5'-CCCUAGG  CCCCUCCCCUCUUCAAGGGGUC ACGUGGC-3'
+3'-GGGAUCC  GGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 63
+      ASO seq: CCCUAGGCCACUCCCCUCUUUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +20|loop  0|loop  +9|wobble_paired
+5'-         A                   C       -3'
+5'-CCCUAGGCC CUCCCCUCUUUAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGG GAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-         G                   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 64
+      ASO seq: CCCUAGGCCCCUCCCCUCCUCAGGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|loop  0|loop  +7|wobble_paired
+5'-                  C          C       -3'
+5'-CCCUAGGCCCCUCCCCUC UCAGGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AGUUCCCCAG UGUACCG-5'
+3'-                  A          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 65
+      ASO seq: CCCUAGACCCCUCCCUUGCUUCAACGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|loop  +12|ecs_bulge  +6|ecs_bulge  0|loop  +14|wobble_paired
+5'-      A          G      C      C       -3'
+5'-CCCUAG CCCCUCCCUU CUUCAA GGGGUC ACAUGGC-3'
+3'-GGGAUC GGGGAGGGGA GAAGUU CCCCAG UGUACCG-5'
+3'-      C                        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 66
+      ASO seq: CCCUAGAGACCAUCCUGUCUAGCCCCUCCCCUCUUCGAGGGGUCCAACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|ecs_bulge|15  0|loop  +8|wobble_paired
+5'-      AGACCAUCCUGUCUA                       CA       -3'
+5'-CCCUAG               GCCCCUCCCCUCUUCGAGGGGUC  ACAUGGC-3'
+3'-GGGAUC               CGGGGAGGGGAGAAGUUCCCCAG  UGUACCG-5'
+3'-                                            *        -5'
+====================================================================================
+
+====================================================================================
+          Top: 67
+      ASO seq: CCCUAGGCCCCUCCCUUCUUACAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +9|ecs_bulge  0|loop  +14|wobble_paired
+5'-                    A         C       -3'
+5'-CCCUAGGCCCCUCCCUUCUU CAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAA GUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 68
+      ASO seq: CCCUAGGCCCUUCCCCUCUUCAAGGAGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +4|loop  0|loop  +19|wobble_paired
+5'-                         A   C       -3'
+5'-CCCUAGGCCCUUCCCCUCUUCAAGG GUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCC CAG UGUACCG-5'
+3'-                         C   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 69
+      ASO seq: CCCUAGGCCCAUCCCCUCUUAGUCUCUCUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19|loop  +9|ecs_bulge|8  0|loop  +9|wobble_paired
+5'-          A         AGUCUCUC         C       -3'
+5'-CCCUAGGCCC UCCCCUCUU        UAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGG AGGGGAGAA        GUUCCCCAG UGUACCG-5'
+3'-          G                          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 70
+      ASO seq: CCCUAGGCCCCCCCCCUCUUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +18|loop  0|loop  +1|wobble_paired
+5'-           C                 C       -3'
+5'-CCCUAGGCCCC CCCCUCUUCAAGGGGUU ACAUGGC-3'
+3'-GGGAUCCGGGG GGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-           A                 *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 71
+      ASO seq: CCCUAGUUUUUUUUUUUUGCCCCUCCCCUCUGUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|ecs_bulge|12  +10|ecs_bulge  0|loop
+5'-      UUUUUUUUUUUU             G          C       -3'
+5'-CCCUAG            GCCCCUCCCCUCU UCAAGGGGUC ACAUGGC-3'
+3'-GGGAUC            CGGGGAGGGGAGA AGUUCCCCAG UGUACCG-5'
+3'-                                          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 72
+      ASO seq: CCCUAGGACCCAACAACUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +22|ecs_bulge  +19|ecs_bulge|5  0|loop
+5'-       A   AACAA                   C       -3'
+5'-CCCUAGG CCC     CUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCC GGG     GAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 73
+      ASO seq: CCCUAGUCCCCUUAAUUUUUAUCCCCUUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|loop  +18|ecs_bulge|10  0|loop  +12|wobble_paired
+5'-      U    UUAAUUUUUA                  C       -3'
+5'-CCCUAG CCCC          UCCCCUUUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUC GGGG          AGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-      C                                *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 74
+      ASO seq: CCCUCGGCCCCUCCCCUCUUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +25|loop  0|loop  +1|wobble_paired
+5'-    C                        C       -3'
+5'-CCCU GGCCCCUCCCCUCUUCAAGGGGUU ACAUGGC-3'
+3'-GGGA CCGGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-    U                        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 75
+      ASO seq: CCCUAGGCCCGUCCCCUUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +19|loop  0|loop  +12|wobble_paired
+5'-          G                  C       -3'
+5'-CCCUAGGCCC UCCCCUUUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGG AGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-          G                  *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 76
+      ASO seq: CCCUAGGCCCCUCCCCUCUUUUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|ecs_bulge  0|loop  +9|wobble_paired
+5'-                  U           C       -3'
+5'-CCCUAGGCCCCUCCCCUC UUUAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 77
+      ASO seq: CCCUAGGCCCCUCCCCUCUUGCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +9|ecs_bulge  0|loop
+5'-                    G         C       -3'
+5'-CCCUAGGCCCCUCCCCUCUU CAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAA GUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 78
+      ASO seq: CCCUAGGCCCCACCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +18|loop  0|loop
+5'-           A                 C       -3'
+5'-CCCUAGGCCCC CCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGG GGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-           A                 *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 79
+      ASO seq: CCCUAGGCCCCUCCCAUCUUCUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +14|loop  +8|ecs_bulge  0|loop
+5'-               A     U        C       -3'
+5'-CCCUAGGCCCCUCCC UCUUC AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGG AGAAG UUCCCCAG UGUACCG-5'
+3'-               G              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 80
+      ASO seq: CCCUAGGCCCCUCCUCUCUUCAAGGAGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +4|loop  0|loop  +15|wobble_paired
+5'-                         A   C       -3'
+5'-CCCUAGGCCCCUCCUCUCUUCAAGG GUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCC CAG UGUACCG-5'
+3'-                         C   *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 81
+      ASO seq: CCCUAGGCAUCCUGGCUAACCCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|ecs_bulge|12  0|loop
+5'-        AUCCUGGCUAAC                     C       -3'
+5'-CCCUAGGC            CCCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCG            GGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                         *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 82
+      ASO seq: CCCUGGGCGUCCCUCCCCUUCCUUCAAGGUGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|ecs_bulge|2  +12|ecs_bulge|2  +4|ecs_bulge  0|loop  +25|wobble_paired
+5'-        GU         UC        U    C       -3'
+5'-CCCUGGGC  CCCUCCCCU  CUUCAAGG GGUC ACAUGGC-3'
+3'-GGGAUCCG  GGGAGGGGA  GAAGUUCC CCAG UGUACCG-5'
+3'-                                  *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 83
+      ASO seq: CCCUAGUUAGUCCCAGCUACUCACCCCUCCCCUCUUCAAGGGGUUCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +23|ecs_bulge|3  +22|ecs_bulge|13  0|loop  +1|wobble_paired
+5'-      UUA UCCCAGCUACUCA                      C       -3'
+5'-CCCUAG   G             CCCCUCCCCUCUUCAAGGGGUU ACAUGGC-3'
+3'-GGGAUC   C             GGGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                             *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 84
+      ASO seq: CCCUGGGCCCCUCCCCUCUUGCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +9|ecs_bulge  0|loop  +25|wobble_paired
+5'-                    G         C       -3'
+5'-CCCUGGGCCCCUCCCCUCUU CAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAA GUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 85
+      ASO seq: CCCUAGGCCCCUCCCCUAAUAGCGCUCUCAAGGGGUCCGCAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +12|ecs_bulge|7  +10|ecs_bulge  0|loop  -1|wobble_paired
+5'-                 AAUAGCG  C          C       -3'
+5'-CCCUAGGCCCCUCCCCU       CU UCAAGGGGUC GCAUGGC-3'
+3'-GGGAUCCGGGGAGGGGA       GA AGUUCCCCAG UGUACCG-5'
+3'-                                     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 86
+      ASO seq: CCCUAGGCCCCUCCCCUCUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|ecs_bulge  0|loop
+5'-                  U           C       -3'
+5'-CCCUAGGCCCCUCCCCUC UUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG AAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 87
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|ecs_bulge  0|loop
+5'-                     U        C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUC AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG UUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 88
+      ASO seq: CCCUAGGCCCCUACCCCUCUUCUAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +17|ecs_bulge  +8|ecs_bulge  0|loop
+5'-            A         U        C       -3'
+5'-CCCUAGGCCCCU CCCCUCUUC AAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGA GGGGAGAAG UUCCCCAG UGUACCG-5'
+3'-                               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 89
+      ASO seq: CCCUAGGCGCCCUCCCCUCUUCGAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|ecs_bulge  0|loop  +8|wobble_paired
+5'-        G                     C       -3'
+5'-CCCUAGGC CCCUCCCCUCUUCGAGGGGUC ACAUGGC-3'
+3'-GGGAUCCG GGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 90
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCCCGAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +8|ecs_bulge|2  0|loop  +8|wobble_paired
+5'-                     CC        C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUC  GAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAG  UUCCCCAG UGUACCG-5'
+3'-                               *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 91
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGGGUGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +3|ecs_bulge  0|loop
+5'-                          U   C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAGGG GUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCCC CAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 92
+      ASO seq: CCCUAGGCCCCUACGCCUGUAAGCCCCGUCUUCAAGGGUGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +17|ecs_bulge|11  +13|ecs_bulge  +3|ecs_bulge  0|loop
+5'-            ACGCCUGUAAG    G          U   C       -3'
+5'-CCCUAGGCCCCU           CCCC UCUUCAAGGG GUC ACAUGGC-3'
+3'-GGGAUCCGGGGA           GGGG AGAAGUUCCC CAG UGUACCG-5'
+3'-                                          *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 93
+      ASO seq: CCCUAGGCCCCUCCCCUCUUCAAGGGCGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +3|ecs_bulge  0|loop
+5'-                          C   C       -3'
+5'-CCCUAGGCCCCUCCCCUCUUCAAGGG GUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCCC CAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 94
+      ASO seq: CCCUAGGCCUCUCCCCUCUUCAAGGGCAAGAUUGUGCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +3|ecs_bulge|7  +1|ecs_bulge  0|loop  +20|wobble_paired
+5'-                          CAAGAUU  G C       -3'
+5'-CCCUAGGCCUCUCCCCUCUUCAAGGG       GU C ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAGAAGUUCCC       CA G UGUACCG-5'
+3'-                                     *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 95
+      ASO seq: CCCUAGGCCCCUCUUAGGCACCCUACCGUUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +16|ecs_bulge|7  +12|ecs_bulge|4  0|loop  +12|wobble_paired
+5'-             UUAGGCA    ACCG            C       -3'
+5'-CCCUAGGCCCCUC       CCCU    UUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAG       GGGA    GAAGUUCCCCAG UGUACCG-5'
+3'-                                        *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 96
+      ASO seq: CCCUAGGCUCCCUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +21|ecs_bulge  0|loop
+5'-        U                     C       -3'
+5'-CCCUAGGC CCCUCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCG GGGAGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 97
+      ASO seq: CCCUAGGCCCCAUCCUGGCUAACUCCCCUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +18|ecs_bulge|12  0|loop
+5'-           AUCCUGGCUAAC                  C       -3'
+5'-CCCUAGGCCCC            UCCCCUCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGG            AGGGGAGAAGUUCCCCAG UGUACCG-5'
+3'-                                         *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 98
+      ASO seq: CCCUAGGCCUCUCCCCUCCCCAAUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +11|ecs_bulge|5  0|loop  +20|wobble_paired
+5'-                  CCCAA           C       -3'
+5'-CCCUAGGCCUCUCCCCUC     UUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGGAG     AAGUUCCCCAG UGUACCG-5'
+3'-                                  *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 99
+      ASO seq: CCCUAGGCCCCUCCCCGUCUUCAAGGGGUCCACAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +13|ecs_bulge  0|loop
+5'-                G             C       -3'
+5'-CCCUAGGCCCCUCCCC UCUUCAAGGGGUC ACAUGGC-3'
+3'-GGGAUCCGGGGAGGGG AGAAGUUCCCCAG UGUACCG-5'
+3'-                              *       -5'
+====================================================================================
+
+====================================================================================
+          Top: 100
+      ASO seq: CCCUAGGCCCCUUUUAAAUCCCCUCUUCAAGGGGUCCGAGCAUGGC
+   target seq: GCCAUGUAGACCCCUUGAAGAGGGGAGGGGCCUAGGG
+    structure: +18|ecs_bulge|7  0|loop  -1|wobble_paired
+5'-           UUUUAAA                  CGA       -3'
+5'-CCCUAGGCCCC       UCCCCUCUUCAAGGGGUC   GCAUGGC-3'
+3'-GGGAUCCGGGG       AGGGGAGAAGUUCCCCAG   UGUACCG-5'
+3'-                                    *         -5'
+====================================================================================
+
