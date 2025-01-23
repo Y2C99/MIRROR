@@ -28,7 +28,7 @@ The output includes a CSV file containing all generated gRNAs and basic informat
 1. gRNA generation for high-throughput screening:
 
    ```shell
-   python3.8 ./MIRROR_v1.py -t GAPDH_1208_TAG.fa -l 51 -fm 3 -tm 25 -fa 4 -ta 4 -o GAPDH_1208_TAG_test_final -p 36 -n 2000
+   python3.8 ./MIRROR_v1.py -t GAPDH_1208_TAG.fa -l 51 -fm 3 -tm 25 -fa 4 -ta 4 -o GAPDH_1208_TAG -p 36 -n 2000
    ```
 
 2. gRNA generation for for low-throughput testing:
@@ -42,4 +42,3 @@ The output includes a CSV file containing all generated gRNAs and basic informat
    ```shell
    python pileup_editing_analysis_v2.py -b sample.bam -f reference.fa -c MAX -o ./output/ -F 10 -p 1234
    ```
-   
