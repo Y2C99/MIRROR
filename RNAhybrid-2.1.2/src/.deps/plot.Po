@@ -1,0 +1,7 @@
+plot.o: plot.c /usr/include/stdc-predef.h ../config.h plot.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+plot.h:

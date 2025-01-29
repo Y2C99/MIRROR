@@ -1,0 +1,141 @@
+.TH RNAHYBRID 1
+.ER
+.SH NAME
+RNAhybrid \- calculate secondary structure hybridisations of RNAs
+.SH SYNOPSIS
+\fBRNAhybrid [\-h] [\-b \fIhit_number\fB] [\-e \fIenergy_cutoff\fB] [\-p
+\fIp-value_cutoff\fB] [\-c] [\-d \fIxi,theta\fB] [\-s \fIset_name\fB] [\-f
+\fIfrom,to\fB] [\-m \fImax_target_length\fB] [\-n \fImax_query_length\fB] [\-u
+\fIiloop_upper_limit\fB] [\-v \fIbloop_upper_limit\fB] [\-g (ps|png|jpg|all)]
+[\-t \fItarget_file\fB] [\-q \fIquery_file\fB] [\fItarget\fB] [\fIquery\fB]
+
+.SH DESCRIPTION
+.I RNAhybrid
+is a tool for finding minimum free energy (mfe) hybridisations of a long
+(target) and a short (query) RNA. The hybridisation is performed in a kind of
+domain mode, ie. the short sequence is hybridised to the best fitting parts of
+the long one. The tool is primarily meant as a means for microRNA target
+prediction.  In addition to mfes, the program calculates p-values based on
+extreme value distributions of length normalised energies.
+
+.SH OPTIONS
+.TP
+.B \-h
+Give a short summary of command line options.
+.TP
+.B \-b \fIhit_number
+Maximal number of hits to show. \fIhit_number\fP hits with increasing minimum
+free energy (reminder: larger energies are worse) are shown, unless the \-e
+option is used and the energy cut-off has been exceeded (see \-e option below) or
+there are no more hits. Hits may only overlap at dangling bases (5' or 3'
+unpaired end of target).
+.TP
+.B \-c
+Produce compact output. For each target/query pair one line of output
+is generated. Each line is a colon (:) separated list of the following
+fields: target name, query name, minimum free energy, position in target,
+alignment line 1, line 2, line 3, line 4. If a target or a query is given
+on command line (ie. no \-t or \-q respectively), its name in the output
+will be "command line".
+.TP
+.B \-d \fIxi,theta
+xi and theta are the position and shape parameters, respectively, of an extreme
+value distribution (evd). p-values of duplex energies are assumed to be
+distributed according to such an evd. For a length normalised energy en, we
+have P[X <= en] = 1 - exp(-exp(-(-en-xi)/theta)), where en = e/log(m*n) with m
+and n being the lengths of the target and the query, respectively. If the \-d
+option is omitted, xi and theta are estimated from the maximal duplex energy of
+the query, assuming a linear dependence. The parameters of this linear
+dependence are coded into the program, but the option \-s has to be given to
+choose from the appropriate set. Note that the evd is mirrored, since good mfes
+are large negative values.
+.TP
+.B \-s \fIset_name
+Used for quick estimate of extreme value distribution parameters (see \-d
+option above). Tells RNAhybrid which target dataset to assume. Valid parameters
+are 3utr_fly, 3utr_worm and 3utr_human.
+.TP
+.B \-e \fIenergy_cutoff
+Hits with increasing minimum free energy (reminder: larger energies are worse)
+less than or equal to \fIenergy_cutoff\fP are shown, unless the \-b option is
+used and the number of already reported hits has reached the maximal
+\fIhit_number\fP (see \-b option above). Hits may only overlap at dangling
+bases (5' or 3' unpaired end of target).
+.TP
+.B \-p \fIp-value_cutoff
+Only hits with p-values not larger than \fIp-value_cutoff\fP are reported.
+See also options \-d and \-s.
+.TP
+.B \-f \fIfrom,to
+Forces all structures to have a helix from position \fIfrom\fP to position
+\fIto\fP with respect to the query. The first base has position 1.
+.TP
+.B \-m \fImax_target_length
+The maximum allowed length of a target sequence. The default value is
+2000. This option only has an effect if a target file is given with the \-t
+option (see below).
+.TP
+.B \-n \fImax_query_length
+The maximum allowed length of a query sequence. The default value is 30. This
+option only has an effect if a query file is given with the \-q option (see
+below).
+.TP
+.B \-u \fIiloop_upper_limit
+The maximally allowed number of unpaired nucleotides in either side of an
+internal loop.
+.TP
+.B \-v \fIbloop_upper_limit
+The maximally allowed number of unpaired nucleotides in a bulge loop.
+.TP
+.B \-g (ps|png|jpg|all)
+Produce a plot of the hybridisation, either in ps, png or jpg format,
+or for all formats together. The plots are saved in files whose names are
+created from the target and query names ("command_line" if given on the
+command line). This option only works, if the appropriate graphics libraries
+are present.
+.TP
+.B \-t \fItarget_file
+Each of the target sequences in \fItarget_file\fP is subject to hybridisation
+with each of the queries (which either are from the \fIquery_file\fP or is the
+one query given on command line; see \-q below). The sequences in the
+\fItarget_file\fP have to be in FASTA format, ie. one line starting with a \>
+and directly followed by a name, then one or more following lines with the
+sequence itself. Each individual sequence line must not have more than 1000
+characters. If no \-t is given, either the last argument (if a \-q is given)
+or the second last argument (if no \-q is given) to RNAhybrid is taken as a
+target.
+.TP
+.B \-q \fIquery_file
+See \-t option above.
+.SH REFERENCES
+The energy parameters are taken from:
+
+Mathews DH, Sabina J, Zuker M, Turner DH.
+"Expanded sequence dependence of thermodynamic parameters improves 
+prediction of RNA secondary structure"
+J Mol Biol., 288 (5), pp 911-940, 1999
+
+The graphical output uses code from the Vienna RNA package:
+
+Hofacker IL.
+"Vienna RNA secondary structure server."
+Nucleic Acids Research, 31 (13), pp 3429-3431, 2003
+
+.SH VERSION
+This man page documents version 2.0 of RNAhybrid.
+
+.SH AUTHORS
+Marc Rehmsmeier, Peter Steffen, Matthias Hoechsmann.
+
+.SH LIMITATIONS
+Character dependent energy values are only defined for [acgtuACGTU].
+All other characters lead to values of zero in these cases.
+
+
+.SH BUGS
+In suboptimal hits, dangling ends appear as Ns if they were in the
+first or last hybridising position of a previous hit.
+
+
+.SH SEE ALSO
+RNAcalibrate, RNAeffective

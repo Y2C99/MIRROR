@@ -1,0 +1,130 @@
+RNAhybrid 2.1.2
+
+RNAhybrid is a tool for finding the minimum free energy hybridisation
+of a long (target) and a short (query) RNA. The hybridisation is
+performed in a kind of domain mode, ie. the short sequence is
+hybridised to the best fitting part of the long one. The tool is
+primarily meant as a means for microRNA target prediction.  In
+addition to mfes, the program calculates p-values based on extreme
+value distributions of length normalised energies.
+
+RNAcalibrate is a tool for calibrating minimum free energy (mfe)
+hybridisations performed with RNAhybrid. It searches a random database
+that can be given on the command line or otherwise generates random
+sequences according to given sample size, length distribution
+parameters and dinucleotide frequencies. To the empirical distribution
+of length normalised minimum free energies, parameters of an extreme
+value distribution (evd) are fitted. The resulting location and scale
+parameters of the evd can then be given to RNAhybrid for the
+calculation of mfe p-values.
+
+RNAeffective is a tool for determining the effective number of
+orthologous miRNA targets.  This number can be used for the
+calculation of more accurate joint p-values in multi-species
+analyses. RNAeffective searches a set of target sequences with random
+miRNAs that can be given on the command line or otherwise generates
+random sequences according to given sample size, length distribution
+parameters and dinucleotide frequencies. The empirical distribution of
+joint p-values is compared to the p-values themselves, and the
+effective number of independent targets is the one that reduces the
+deviation between the two distributions.
+
+
+For installation, see the file INSTALL.
+
+
+After installation, try the following examples (make sure that RNAhybrid,
+RNAcalibrate and RNAeffective are in your PATH by then):
+
+
+    RNAhybrid -s 3utr_worm -t examples/cel-hbl-1.fasta -q examples/cel-let-7.fasta
+
+
+This searches the C. elegans hbl-1 3'UTR with the C. elegans let-7
+miRNA. The option -s tells RNAhybrid to quickly estimate statistical
+parameters from "minimal duplex energies" under the assumption that
+the target sequences are worm (C. elegans, to be precise) 3'UTR
+sequences. You can also use 3utr_fly and 3utr_human.
+
+To get a better estimate of statistical parameters, use RNAcalibrate:
+
+
+    RNAcalibrate -d examples/3UTR_worm.freq -k 50 -l 50,30 -q examples/cel-let-7.fasta
+
+
+This generates 50 random sequences with lengths distributed according
+to a normal (Gaussian) distribution with mean 50 and standard
+deviation 30, following the dinucleotide distribution that is defined
+in the file 3UTR_worm.freq in the examples dicrectory. The output are
+the parameters of an extreme value distribution (location and
+shape). Since with 50 random sequences the estimate is not very
+accurate, you should use larger numbers of several thousand. Default
+values for -k and -l are 5000 and 500,300, respectively, so you can
+omit these options.
+
+The estimated parameters can be used with RNAhybrid for accurate
+p-value calculation of length normalised minimum free energies:
+
+
+RNAhybrid -d 1.9,0.28 -t examples/cel-hbl-1.fasta -q examples/cel-let-7.fasta
+
+
+Here, 1.9 is the location parameter and 0.28 the shape parameter of
+the assumed extreme value distribution.
+
+If you want to force miRNA/target duplexes to have a helix in a specified
+part, for example at the 5'-end of the miRNA, use the -f option:
+
+
+RNAhybrid -f 2,7 -d 1.9,0.28 -t examples/cel-hbl-1.fasta -q examples/cel-let-7.fasta
+
+
+-f 2,7 tells RNAhybrid to force the duplexes to have a helix (ie. an
+uninterrupted stretch of base pairs, no bulges, no internal loops)
+from nucleotide 2 to nucleotide 7 in the miRNA.
+
+Since such a structural constraint affects the statistical
+significance of matches, you should use RNAcalibrate with the same
+constraint:
+
+
+RNAcalibrate -f 2,7 -d examples/3UTR_worm.freq -k 50 -l 50,30 -q examples/cel-let-7.fasta
+
+
+Be aware that you might need a larger sample (larger -k value) to get
+a good estimate of statistical parameters, especially for shorter
+sequences. This is, because it is not for all miRNA/target
+combinations possible to form a helix at the specified positions.
+
+To get a feeling of how stable the parameter estimates are, repeat the
+calibration several times and have a look at the resulting values.
+
+
+In a cross-species analysis, you would search C. briggsae sequences as
+well:
+
+
+RNAhybrid -s 3utr_worm -t examples/cbr-hbl-1.fasta -q examples/cel-let-7.fasta
+
+
+To assess how much evidence the use of multiple species adds, you can
+calculate the effective number of orthologous sequences:
+
+
+RNAeffective -k 30 -s -t examples/hbl-1.fasta -q examples/cel-let-7.fasta
+
+
+Here, hbl-1.fasta contains both hbl-1 3'UTR sequences (C. elegans and
+C. briggsae). The output tells you an effective number of 1.3, which
+means that the two sequences are statistically rather dependent, and
+that it is not that surprising to find a good hit in cbr-hbl-1 if you
+have found one in cel-hbl-1. The closer the effective number is to the
+actual number (2 in this example), the statistically more independent
+the sequences are. Like in the RNAcalibrate examples, the -k option
+should take larger values, although the calculations are very time
+consuming.
+
+
+In general, target files (-t option) and query (miRNA) files (-q
+option) can be multiple fasta files. The searches are performed in all
+combinations (all queries vs. all targets).

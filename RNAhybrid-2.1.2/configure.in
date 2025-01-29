@@ -1,0 +1,36 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_REVISION($Revision: 1.0 $)
+AC_INIT(RNAhybrid,1.0,marc@techfak.uni-bielefeld.de,RNAhybrid)
+AC_PREREQ(2.53)
+AM_INIT_AUTOMAKE
+
+dnl create a config.h file (Automake will add -DHAVE_CONFIG_H)
+AM_CONFIG_HEADER(config.h)
+
+dnl Checks for programs.
+dnl AC_PROG_CXX
+AC_PROG_CC
+AC_LANG(C)
+
+dnl Checks for libraries.
+AC_CHECK_LIB(m,log,,AC_MSG_ERROR(math library is missing))
+AC_CHECK_LIB(g2,g2_open_vd,,AC_MSG_WARN(libg2.a is missing. You can download it at http://g2.sourceforge.net/))
+AC_CHECK_LIB(gd,gdImageLine,,)
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADER(g2.h,,)
+AC_CHECK_HEADER(g2_PS.h,,)
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_C_INLINE
+AC_TYPE_SIZE_T
+
+dnl AC_SUBST(CXX)
+
+dnl Checks for library functions.
+
+AC_OUTPUT(Makefile src/Makefile man/Makefile)
+
+

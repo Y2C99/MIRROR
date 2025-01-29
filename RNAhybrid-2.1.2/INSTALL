@@ -1,0 +1,16 @@
+Type
+
+        ./configure
+        make
+        make install
+
+to configure, make and install RNAhybrid. To enable graphical
+output for RNAhybrid, you need the libraries g2 for ps format
+and g2 and gd for png and jpg format. Without these libraries
+only textual output is supported.
+
+
+Type
+        make clean
+
+to remove object files.

@@ -1,0 +1,28 @@
+2013-08-26  Marc Rehmsmeier  <marc.rehmsmeier@localhost>
+
+	* fixed a bug that could cause a segmentation fault when
+	iloop_upper_limit was only 1
+
+Tue Nov 16 16:46:51 2004  Marc Rehmsmeier  <marc@TechFak.Uni-Bielefeld.DE>
+
+	* RNAcalibrate man page: added description of output (number of
+	data points, location, scale)
+
+	* estimate_evd_parameters now returns the number of data
+	points evd parameters have been estimated on
+
+Mon Nov 15 20:32:43 2004  Marc Rehmsmeier  <marc@TechFak.Uni-Bielefeld.DE>
+
+	* Added GNU General Public License to *.c and *.h files.
+
+	* examples directory: renamed and added sequence files.
+
+	* README: augmented (and correct) examples.
+
+	* RNAeffective: proper behaviour for qflag now. Hadn't been
+	working before.
+
+	* Added options -u (maximum internal loop size per sequence) and
+	-v (maximum bulge loop size). (some time ago)
+	
+
