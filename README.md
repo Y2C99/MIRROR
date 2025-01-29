@@ -8,12 +8,13 @@ Workflow of the **MIRROR (Mimicking Inverted Repeats to Recruit ADAR via Enginee
 
 The script was tested on a centos machine (CentOS Linux release 7.8.2003).
 
-|        python version        | 3.8   |
-| :--------------------------: | ----- |
-|            pandas            | 1.5.1 |
-|          Biopython           | 1.79  |
-| RNA python APIs of ViennaRNA | 4.0.2 |
-|          RNAhybrid           | 2.1.2 |
+| python version               | 3.8    |
+| :--------------------------- | ------ |
+| pandas                       | 1.5.1  |
+| Biopython                    | 1.79   |
+| RNA python APIs of ViennaRNA | 4.0.2  |
+| RNAhybrid                    | 2.1.2  |
+| pysam                        | 0.21.0 |
 
 ## Usage
 
@@ -40,5 +41,5 @@ The output includes a CSV file containing all generated gRNAs and basic informat
 3. editing level analysis based on targeted-RNA-seq:
 
    ```shell
-   python pileup_editing_analysis_v2.py -b sample.bam -f reference.fa -c MAX -o ./output/ -F 10 -p 1234
+   python pileup_editing_analysis_v2.py -b ./5L2_E2E_STAR.Aligned.out.sorted.bam -f ./UAA_pool_reference.fa  -o ./output/ -F 10 -p 124
    ```
