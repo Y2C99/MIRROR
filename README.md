@@ -43,3 +43,5 @@ The output includes a CSV file containing all generated gRNAs and basic informat
    ```shell
    python pileup_editing_analysis_v2.py -b ./5L2_E2E_STAR.Aligned.out.sorted.bam -f ./UAA_pool_reference.fa  -o ./output/ -F 10 -p 124
    ```
+## License
+This software is licensed under the GNU General Public License (GPL). However, it is free for non-commercial use only. Commercial use is prohibited without prior written permission from the authors.
