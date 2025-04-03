@@ -55,7 +55,7 @@ For questions and technical support, please contact:
 
 Please cite `Sun Y.F. et al. Improved RNA base editing with guide RNAs mimicking highly edited endogenous ADAR substrates. Nature Biotechnology (2025).`
 
-(https://www.nature.com/articles/s41587-025502628-6)
+(https://www.nature.com/articles/s41587-025-02628-6)
 
 ## License
 This software is licensed under the GNU General Public License (GPL). However, it is free for non-commercial use only. Commercial use is prohibited without prior written permission from the authors.
