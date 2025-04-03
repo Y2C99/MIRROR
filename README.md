@@ -2,7 +2,7 @@
 
 Workflow of the **MIRROR (Mimicking Inverted Repeats to Recruit ADAR via Engineered Oligoribonucleotide)**.
 
-<img src="./img/MIRROR.png" width="600">
+<img src="./img/MIRROR.png" width="500">
 
 ## Python packages and software
 
@@ -43,5 +43,20 @@ The output includes a CSV file containing all generated gRNAs and basic informat
    ```shell
    python pileup_editing_analysis_v2.py -b ./5L2_E2E_STAR.Aligned.out.sorted.bam -f ./UAA_pool_reference.fa  -o ./output/ -F 10 -p 124
    ```
+## Contact
+
+For questions and technical support, please contact:
+
+`Yong Cao (caoy89@mail2.sysu.edu.cn)`
+
+`YuanFan Sun (sunyf36@mail2.sysu.edu.cn)`
+
+## Citation
+
+Please cite `Sun Y.F. et al. Improved RNA base editing with guide RNAs mimicking highly edited endogenous ADAR substrates. Nature Biotechnology (2025).`
+
+(https://www.nature.com/articles/s41587-025502628-6)
+
 ## License
 This software is licensed under the GNU General Public License (GPL). However, it is free for non-commercial use only. Commercial use is prohibited without prior written permission from the authors.
+
