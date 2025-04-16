@@ -1,4 +1,3 @@
-#!/share/public4/data/caoy/softs/python_3.8.12/Python-3.8.12/bin/python3.8
 import pandas as pd
 from collections import defaultdict as dd
 from subprocess import Popen,PIPE
@@ -20,7 +19,8 @@ from copy import deepcopy
 _bases = {"A", "T", "C", "G", "N", "*", " ", "U", "a", "t", "c", "g", "n", "u"}
 _modes = Literal["raw", "A-A", "A-C", "CA-AC",'GA-GC',"G-G","GAP-GCP"]
 
-hybrid = "/share/public4/data/caoy/softs/RNAhybrid-2.1.2/bin/bin/RNAhybrid"
+# path to your RNAhybrid
+hybrid = "./RNAhybrid-2.1.2/bin/bin/RNAhybrid"
 
 class Hybrid_str():
     """Parse transformed RNAhybrid-output(Editing site was marked as * in es_pair or es_unpair)
@@ -997,7 +997,7 @@ if __name__ == "__main__":
     if site_motif not in available_motifs:
         print("Input editing site motif is not avaiable! Check the input editing site location on the target fasta!")
         sys.exit(1)
-    df = pd.read_csv("/share/public4/data/caoy/work/IA_approach/Alu_mimic_v4/substrates/{site_motif}.csv".format(site_motif=site_motif))
+    df = pd.read_csv("../substrates/{site_motif}.csv".format(site_motif=site_motif))
     df["level"] = df["site"].apply(lambda x: float(x.split("|")[-1].split(":")[1]))
     rows = [row for _, row in df.iterrows()]
 
