@@ -19,8 +19,6 @@ from copy import deepcopy
 _bases = {"A", "T", "C", "G", "N", "*", " ", "U", "a", "t", "c", "g", "n", "u"}
 _modes = Literal["raw", "A-A", "A-C", "CA-AC",'GA-GC',"G-G","GAP-GCP"]
 
-# path to your RNAhybrid
-hybrid = "./RNAhybrid-2.1.2/bin/bin/RNAhybrid"
 
 class Hybrid_str():
     """Parse transformed RNAhybrid-output(Editing site was marked as * in es_pair or es_unpair)
@@ -587,7 +585,7 @@ def add_arm(es_five_arm,es_three_arm,s1,s2,s3,s4):
     return (out_s1,out_s2,out_s3,out_s4)
 
 def get_RNAhybrid_res(ASO_seq=None,target_seq=None,five_arm=None,five_mimic=None):
-    tmp_cmd =  "{hybrid} -m 1000 -n 1000 -s 3utr_human {seq1} {seq2}".format(hybrid=hybrid,seq1=ASO_seq,seq2=target_seq)
+    tmp_cmd =  "{hybrid} -m 1000 -n 1000 -s 3utr_human {seq1} {seq2}".format(hybrid=options.hybrid,seq1=ASO_seq,seq2=target_seq)
     tmp_process = Popen(tmp_cmd,shell=True,stdin=PIPE,stdout=PIPE,stderr=PIPE)
     tmp_lines = [i.decode(encoding="utf-8") for i in tmp_process.stdout.read().splitlines()]
     hybrid_aso_unpair,hybrid_aso_pair,hybrid_target_pair,hybrid_target_unpair = tmp_lines[-6][10:-3],tmp_lines[-5][10:-3],tmp_lines[-4][10:-3],tmp_lines[-3][10:-3]
@@ -952,6 +950,8 @@ if __name__ == "__main__":
     group_required.add_argument("-tm", dest="three_mimic", metavar="three_mimic_length", type=int,help="three_mimic region length of the editing site", required=True)
 
     group_optional = parser.add_argument_group("Optional")
+    group_optional.add_argument('--hybrid',dest='hybrid',metavar='RNAhybird',type=str, required=False, help='Path to RNAhybrid binary,make sure it has execute permission,default is the provied RNAhybrid in the repository.',default='./RNAhybrid-2.1.2/bin/bin/RNAhybrid')
+    group_optional.add_argument('--substrates',dest='substrates',metavar='substrates',type=str,required=False,help='Path to substrate in the repository,default is the relative path to the substrates in the repository',default='../substrates')
     group_optional.add_argument("-m", dest="motif", metavar="motif",help="input motif structure to mimic,default is the site's orginal motif", required=False)
     group_optional.add_argument("-fa", dest="five_arm", metavar="five_arm_length",help="length of the ES 5' binding region,default=25,if you do not want it,just set it be 0.", type=int, default=25, required=False)
     group_optional.add_argument("-ta", dest="three_arm", metavar="three_arm_length",help="length of the ES 3' binding region,default=25,if you do not want it,just set it be 0.", type=int, default=25, required=False)
@@ -997,7 +997,7 @@ if __name__ == "__main__":
     if site_motif not in available_motifs:
         print("Input editing site motif is not avaiable! Check the input editing site location on the target fasta!")
         sys.exit(1)
-    df = pd.read_csv("../substrates/{site_motif}.csv".format(site_motif=site_motif))
+    df = pd.read_csv("{substrates}/{site_motif}.csv".format(substrates=options.substrates,site_motif=site_motif))
     df["level"] = df["site"].apply(lambda x: float(x.split("|")[-1].split(":")[1]))
     rows = [row for _, row in df.iterrows()]
 
