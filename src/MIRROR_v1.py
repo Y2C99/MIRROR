@@ -15,9 +15,12 @@ from collections import defaultdict as dd
 from typing import Literal, get_args
 import itertools
 from copy import deepcopy
-
+from pathlib import Path
 _bases = {"A", "T", "C", "G", "N", "*", " ", "U", "a", "t", "c", "g", "n", "u"}
 _modes = Literal["raw", "A-A", "A-C", "CA-AC",'GA-GC',"G-G","GAP-GCP"]
+SCRIPT_DIR = Path(__file__).resolve().parent
+SUBSTRATES_DIR = SCRIPT_DIR.parent / 'substrates'
+RNAHYBRID_BIN = SCRIPT_DIR / 'RNAhybrid-2.1.2' / 'bin' / 'bin' / 'RNAhybrid'
 
 
 class Hybrid_str():
@@ -950,8 +953,8 @@ if __name__ == "__main__":
     group_required.add_argument("-tm", dest="three_mimic", metavar="three_mimic_length", type=int,help="three_mimic region length of the editing site", required=True)
 
     group_optional = parser.add_argument_group("Optional")
-    group_optional.add_argument('--hybrid',dest='hybrid',metavar='RNAhybird',type=str, required=False, help='Path to RNAhybrid binary,make sure it has execute permission,default is the provied RNAhybrid in the repository.',default='./RNAhybrid-2.1.2/bin/bin/RNAhybrid')
-    group_optional.add_argument('--substrates',dest='substrates',metavar='substrates',type=str,required=False,help='Path to substrate in the repository,default is the relative path to the substrates in the repository',default='../substrates')
+    group_optional.add_argument('--hybrid',dest='hybrid',metavar='RNAhybird',type=str, required=False, help=f'Path to RNAhybrid binary (default: {RNAHYBRID_BIN})',default=RNAHYBRID_BIN)
+    group_optional.add_argument('--substrates',dest='substrates',metavar='substrates',type=str,required=False,help=f'Path to substrates directory (default: {SUBSTRATES_DIR})',default=SUBSTRATES_DIR)
     group_optional.add_argument("-m", dest="motif", metavar="motif",help="input motif structure to mimic,default is the site's orginal motif", required=False)
     group_optional.add_argument("-fa", dest="five_arm", metavar="five_arm_length",help="length of the ES 5' binding region,default=25,if you do not want it,just set it be 0.", type=int, default=25, required=False)
     group_optional.add_argument("-ta", dest="three_arm", metavar="three_arm_length",help="length of the ES 3' binding region,default=25,if you do not want it,just set it be 0.", type=int, default=25, required=False)
@@ -980,7 +983,6 @@ if __name__ == "__main__":
     three_mimic = options.three_mimic
     p = options.process
     total_length = five_arm + five_mimic + 1 + three_mimic + three_arm
-
     # check mimic parameters
     if three_mimic == 0 and five_mimic == 0:
         print("Mimic length should be bigger than 0!")
